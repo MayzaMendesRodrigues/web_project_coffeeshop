@@ -108,14 +108,8 @@
   margin-bottom: 40px;
 }
 
-.header__footer-item {
-  margin: 0;
-  margin-left: 80px;
-}
-
 .header__paragraph {
-  margin-bottom: 40px;
-  margin-right: 80px;
+  margin: 0 80px;
 }
 
 .recipes {
