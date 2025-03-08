@@ -172,10 +172,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  min-height: 385px;
+  max-height: 720px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 100px 80px 120px;
 }
@@ -191,8 +191,7 @@
 }
 
 .reservation__form {
-  max-width: 385px;
-  width: 100%;
+  margin: 0 auto;
 }
 
 .form__fieldset {
