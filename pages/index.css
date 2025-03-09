@@ -187,7 +187,6 @@
   text-align: center;
   margin: 0 auto 80px;
   color: #000;
-  padding: 0;
 }
 
 .reservation__form {
@@ -212,6 +211,10 @@
   margin-bottom: 32px;
 }
 
+.form__input[type="datetime-local"] {
+  color: #6f6f6f;
+}
+
 .form__label,
 .form__checkbox {
   font-family: "Inter", Arial, Helvetica;
@@ -234,6 +237,10 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.form__button:hover {
+  opacity: 0.7;
 }
 
 .form__checkbox {
