@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="#" />
+    <meta
+      name="description"
+      content="Reserve uma mesa na cafeteria da biblioteca Triple Peaks . Escolha o horário e a mesa disponível."
+    />
     <meta name="author" content="Mayza Ynara" />
-    <meta name="keywords" content="#" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <meta
+      name="keywords"
+      content="reserva, cafeteria, biblioteca, mesa, horário"
+    />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,7 +43,7 @@
             </li>
 
             <li>
-              <a href="#" class="nav__link">Contatos</a>
+              <a href="#footer" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -121,6 +126,7 @@
                 <input
                   class="form__input"
                   type="text"
+                  name="name"
                   placeholder="Nome"
                   required
                 />
@@ -131,6 +137,7 @@
                 <input
                   class="form__input"
                   type="number"
+                  name="number-guests"
                   max="8"
                   min="1"
                   placeholder="1-8"
@@ -140,7 +147,12 @@
 
               <label class="form__label"
                 >Data e hora: *
-                <input class="form__input" type="datetime-local" required />
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  name="date-time"
+                  required
+                />
               </label>
 
               <label class="form__label"
@@ -148,6 +160,7 @@
                 <input
                   class="form__input"
                   type="email"
+                  name="email"
                   placeholder="email@email.com"
                   required
                 />
@@ -164,6 +177,8 @@
                     id="terms"
                     class="form__input form__checkbox"
                     type="checkbox"
+                    name="terms-o-use"
+                    value="agree"
                   />
                   Eu concordo com os termos de uso</label
                 >
@@ -172,7 +187,39 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logotipo da Biblioteca Triple Express"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Mídia social</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="icone da rede social facebook"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="icone da rede social instagram"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy;2025 Mayza Ynara</p>
+      </footer>
     </div>
   </body>
 </html>
