@@ -48,6 +48,7 @@ If you have any questions or want to learn more about the project:
 - **Email**: [mayzamrodrigues@gmail.com](mailto:mayzamrodrigues@gmail.com)
 - **LinkedIn**: [linkedin.com/in/mayza-ynara-mendes-rodrigues](https://www.linkedin.com/in/mayza-ynara-mendes-rodrigues/)
 - **GitHub**: [github.com/mayza-ynara](https://github.com/mayza-ynara)
+- **Site**: https://mayzamendesrodrigues.github.io/web_project_coffeeshop/
 ---
 💡 *Follow my portfolio for more projects!* 🚀
 
